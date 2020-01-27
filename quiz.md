@@ -2,7 +2,8 @@
 ___
 
 **Instruksi**
-  pada Kuis kali ini data yang digunakan adalah data `nasa_fire.csv`. Data tersebut memiliki 25937 observasi dan 3 kolom. Anda dapat sebelum melakukan proses cluster anda dapat melakukan eksplorasi data terlebih dahulu menggukan fungsi `str()` atau `glimpse()`. Berikut deskripsi dari kolom pada data `nasa_fire.csv` :
+
+  Pada kuis kali ini data yang digunakan adalah data `nasa_fire.csv`. Data tersebut memiliki 25937 observasi dan 3 kolom. sebelum anda melakukan proses clustering anda dapat melakukan eksplorasi data terlebih dahulu menggukan fungsi `str()` atau `glimpse()` pada data `nasa_fire`. Berikut deskripsi dari kolom data `nasa_fire.csv` :
   
   - `latitude` : Titik latitude terjadinya kebakaran
   - `longitude` : Titik longitude terjadinya kebakaran
@@ -17,30 +18,30 @@ ___
   - [ ] dalam DBSCAN terdapat centroid yang menunjukkan pusat cluster.
   - [ ] DBSCAN sensitif terhadap perubahan nilai parameter.
 
-2.  Apa yang terjadi pada hasil clustering bila nilai Eps dalam proses clustering diperluas dan nilai minPts tetap?
+2.  Apa yang terjadi pada hasil clustering bila nilai `eps` dalam proses clustering diperbesar dan nilai `minPts` tetap?
   - [ ] Jumlah cluster yang terbentuk semakin sedikit karena radius cakupan cluster lebih luas.
   - [ ] Data noise yang dihasilkan semakin banyak.
   - [ ] Jumlah cluster yang terbentuk tetap namun data noise semakin banyak.
 
-3. Pernyataan yang tepat terkait optimasi nilai eps dibawah ini yaitu?
+3. Pernyataan yang tepat terkait optimasi nilai `eps` dibawah ini yaitu?
   - [ ] Nilai K dapat ditentukan oleh fungsi KNNdistplot dengan memasukkan nilai eps sebagai input.
   - [ ] Nilai eps optimum berada pada "knee" yang terbentuk pada plot KNNdisplot.
   - [ ] KNNdistplot dapat memberikan nilai eps optimum secara langsung.
   
 # DBSCAN pada Spatial Data
 
-4. Dengan menggunakan minPts = 100 berapa nilai Eps yang optimum menurut teknik "knee" plot ?
+4. Dengan menggunakan `minPts = 100` berapa nilai `eps` yang optimum menurut teknik "knee" plot ?
   - [ ] 0.8
   - [ ] 1.4
   - [ ] 2.2
   - [ ] 3.8
 
-5. Dengan menggunakan minPts = 100 dan Eps yang optimal berapa banyak cluster dan data noise yang dihasilkan ?
- - [ ] 6 Cluster dengan 448 data noise
+5. Dengan menggunakan `minPts = 100` dan `eps` yang optimal berapa banyak cluster dan data noise yang dihasilkan ?
+ - [ ] 6 cluster dengan 448 data noise
  - [ ] 3 cluster dengan 33 data noise
- - [ ] 12 Cluster dengan 800 data noise
+ - [ ] 12 cluster dengan 800 data noise
  
-6. Apabila anda hanya mengclusterkan data nasa_fire dengan confidence diatas 0.8 dan menggunakan minpts = 10 dan eps = 0.8 pada proses pembuatan cluster maka pernyataan yang tepat adalah ?
+6. Apabila anda hanya menggunakan data `nasa_fire` dengan confidence diatas 0.8 dalam proses clustering dan menggunakan `minpts = 10` serta `eps = 0.8` pada proses pembuatan cluster, maka pernyataan yang tepat adalah ?
   - [ ] Terdapat 250 data noise
   - [ ] Cluster yang dihasilkan sebanyak 44 cluster
-  - [ ] cluster 15 merupakan cluster dengan anggota cluster terbanyak
+  - [ ] Cluster 15 merupakan cluster dengan anggota cluster terbanyak
