@@ -6,7 +6,7 @@ ___
   
   - `latitude` : Titik latitude terjadinya kebakaran
   - `longitude` : Titik longitude terjadinya kebakaran
-  - `confidence` : Tingat kepercayaan suatu kebakaran terjadi. selang nilai pada confidence dari 0 hingga 1.
+  - `confidence` : Tingat kepercayaan suatu kebakaran terjadi. selang nilai pada confidence dari 0 hingga 100.
   
 ___
 
@@ -31,16 +31,16 @@ ___
 
 4. Dengan menggunakan minPts = 100 berapa nilai Eps yang optimum menurut teknik "knee" plot ?
   - [ ] 0.8
-  - [ ] 1.4
-  - [ ] 2.2
+  - [ ] 1.2
+  - [ ] 2.5
   - [ ] 3.8
 
 5. Dengan menggunakan minPts = 100 dan Eps yang optimal berapa banyak cluster dan data noise yang dihasilkan ?
  - [ ] 6 Cluster dengan 448 data noise
  - [ ] 3 cluster dengan 33 data noise
- - [ ] 12 Cluster dengan 800 data noise
+ - [ ] 14 Cluster dengan 924 data noise
  
-6. Apabila anda hanya mengclusterkan data nasa_fire dengan confidence diatas 0.8 dan menggunakan minpts = 10 dan eps = 0.8 pada proses pembuatan cluster maka pernyataan yang tepat adalah ?
+6. Apabila anda hanya menggunakan data `nasa_fire` dengan confidence diatas 80 dan dalam proses clustering menggunakan minpts = 10 serta eps = 0.8 maka pernyataan yang tepat adalah ?
   - [ ] Terdapat 250 data noise
-  - [ ] Cluster yang dihasilkan sebanyak 44 cluster
+  - [ ] Cluster yang dihasilkan sebanyak 36 cluster
   - [ ] cluster 15 merupakan cluster dengan anggota cluster terbanyak
