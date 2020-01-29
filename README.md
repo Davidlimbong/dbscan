@@ -10,3 +10,5 @@ Objectif dari artikel ini yaitu :
 * memvisualisasikan cluster
 * mengimplemntasikan metode DBSCAN dalam pengelompokkan data kebakaran
 * kelebihan serta kekurangan dari metode DBSCAN
+
+Untuk menguji pemahaman anda terkait materi ini, anda dapat mengikuti kuis DBSCAN pada [corgi.re]( https://corgi.re/courses/Davidlimbong/dbscan)
